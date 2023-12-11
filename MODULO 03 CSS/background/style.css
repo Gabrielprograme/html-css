@@ -3,18 +3,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
-    background-image: url('imagens/pattern004.png');
+    background-image: url('https://images.pexels.com/photos/19073628/pexels-photo-19073628/free-photo-of-apaixonado.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 div.quadrado{
     border-radius: 10px;
     background-color: lightgray;
     border: 2px solid black;
     height: 300px;
-    width: 300px;
-    margin: auto;
+    width: 250px;
+    margin: auto 10px;
   display: inline-block;
 }
 
@@ -27,3 +26,4 @@ div#q2{
 div#q3{
   background-image: url(imagens/wallpaper002.jpg);
 }
+/* backgound repeat */
