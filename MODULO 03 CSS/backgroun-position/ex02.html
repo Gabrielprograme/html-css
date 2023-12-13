@@ -1,0 +1,71 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 002</title>
+</head>
+<style>
+    main{
+        min-width: 320px;
+        max-width: 800px;
+        text-align: center;
+    }
+    main h1{
+        color: aliceblue;
+        text-align: center;
+    }
+    body{
+    background: black url('TRIPPIE.png') center center no-repeat cover;
+    }
+    p{
+        color: aliceblue;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+    }
+    div.quadrado{
+        color: rgb(238, 0, 0);
+        padding: 20px;
+        height: 150px;
+        width: 250px;
+        border-radius: 10px;
+        border: 4px solid white;
+    }
+    div.conteudo{
+        margin: 10px;
+        color: aliceblue;
+    }
+</style>
+<body>
+   <main>
+    <h1>tamanho do backgroud</h1>
+    <p>Por padrão, nenhum redimensionamento será aplicado, e a imagem será 
+        exibida do seu tamanho natural. Porém, podemos usar a propriedade background-size para alterar esse comportame</p>
+        <p>Essa propriedade recebe varias atributos, como:</p>
+        <div class="quadrado">auto
+        <div class="conteudo">(padrão) a imagem de fundo será aplicada em seu tamanho original</div>
+        </div>
+        <div class="quadrado">[lenght px] [lenght %]
+            <div class="conteudo">Redimensiona a largura da imagem e faz a altura se adaptar automaticamente. 
+                Podemos também informar as duas dimensões na sequência ou também usar valores 
+                percentuais</div>
+        </div>
+        <div class="quadrado">cover 
+            <div class="conteudo">Muda o tamanho da imagem para que ela seja sempre totalmente exibida na tela, 
+                sem nenhum corte. </div>
+        </div>
+        <div class="quadrado">contain
+            <div class="conteudo">Redimensiona a imagem para que ela cubra o contêiner, mesmo que para isso 
+                ocorram alguns eventuais cortes.</div>
+        </div>
+        <div class="quadrado">attachment
+            <div class="conteudo">scroll: (padrão) a imagem de fundo vai rolar junto com o conteúdo
+
+            <div class="conteudo">fixed: A imagem de fundo vai ficar fixada enquanto o conteúdo vai sendo rolado.</div>
+
+            </div>
+        </div>
+
+   </main>
+</body>
+</html>

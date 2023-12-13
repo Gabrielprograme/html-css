@@ -1,0 +1,26 @@
+body{
+  background: url('espaco.jpg') center center fixed;
+}
+ .parent{
+   text-align: center;
+   margin: auto;
+ }
+ div.fora{
+    height: 70vh;
+    background-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ div.dentro{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;;
+    top: 50%;;
+    transform: translate(-50%, -50%);
+    border-radius: 20px ;
+ }
