@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background: black url('../backgroun-position/TRIPPIE.png') center center no-repeat;
+    background: black url('../backgroun-position/TRIPPIE.png') center center no-repeat fixed;
     background-size: cover;
 }
 
