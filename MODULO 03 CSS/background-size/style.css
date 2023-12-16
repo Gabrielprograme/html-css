@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 body{
+    /* shorthands */
     background: black url('../backgroun-position/TRIPPIE.png') center center no-repeat fixed;
+    /* o background-size não funciona dentro da shorthands */
     background-size: cover;
 }
 
@@ -18,4 +20,9 @@ main{
     text-align: left;
     text-align: justify;
 
+}
+p{
+    text-indent: 20px;
+    text-transform: uppercase;
+ font-weight: bold;
 }
