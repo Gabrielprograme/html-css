@@ -1,0 +1,70 @@
+    @charset "utf-8";
+     @font-face {
+        font-family: 'passion';
+        src: url('fonte/PassionOne-Bold.ttf') format(truetype);
+     }
+     @font-face {
+        font-family: 'sraracha';
+        src: url('fonte/Sriracha-Regular.ttf') format(truetype);
+     }
+     :root{
+        --fonte-padrao: helvetica, arial, sans-serif;
+        --fonte-cabeçalho: 'passion', cursive;
+        --fonte-conteudo: 'sraracha', cursive;
+     }
+     *{
+        margin: 0;
+        padding: 0;
+     }
+     html,body{
+        background-color: darkgray;
+     }
+     main{
+        min-height: 320px;
+        max-height: 800px;
+     }
+     header{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+     }
+     header > h1{
+        padding-top: 50px;
+        font-size: 10vw;
+        font-variant: small-caps;
+        font-family: 'passion';
+     }
+     header >p{
+        padding-bottom: 50px;
+     }
+     header > p a{
+        color: darkviolet;
+        text-decoration: none;
+     }
+     header a:hover{
+        text-decoration: underline;
+
+     }
+     section{
+        padding-top: 10vh;
+        padding-left: 10vh;
+        padding-bottom: 30px;
+     }
+     section > p{
+        line-height: 2em;
+        font-size: 25px;
+        font-family: var(--fonte-conteudo);
+     }
+
+     section.imagem{
+        background: url('https://images.pexels.com/photos/16495875/pexels-photo-16495875/free-photo-of-praia-litoral-ceu-azul-ceu-de-brigadeiro.jpeg') center center no-repeat fixed;
+        background-size: cover ;
+        
+     }
+     section.imagem > p {
+        background-color: rgba(0, 0, 0, 0.253);
+        color: aliceblue;
+        display: inline-block;
+        text-align: justify;
+        padding: 20px;
+     }
