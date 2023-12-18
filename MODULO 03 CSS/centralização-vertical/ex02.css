@@ -1,0 +1,19 @@
+.conteiner{
+    height: 500px;
+    padding: 20px;
+    background: blueviolet url('../backgroun-position/TRIPPIE.png') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.conteudo{
+    height: 400px;
+    width: 400px;
+    background: black url('../backgroun-position/TRIPPIE.png') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
