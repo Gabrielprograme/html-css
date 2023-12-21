@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+background: #e2850b50 url('../backgroun-position/TRIPPIE.png') center center no-repeat fixed;
+}
+div{
+    
+    background-size: contain;
+    width: 400px; 
+    margin: 100px auto;
+}
+
+table{ 
+    width: 400px;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+}
+td:hover{
+    font-size: 20px;
+}
+td{
+    border: 2px solid;
+    padding: 8px;
+}
+
+.dado1:hover{
+    background-color: rgba(255, 238, 0, 0.514);
+    transition: background .9s;
+}
+.dado:hover{
+    background-color: rgba(153, 205, 50, 0.466);
+    transition: background .9s;
+}
+.dado2:hover{
+    background-color: rgba(137, 43, 226, 0.384);
+    transition: background .9s;
+}
