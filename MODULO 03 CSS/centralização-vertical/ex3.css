@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+div.fora{
+    width: 100vw;
+    height: 500px;
+    background: yellow;
+    position: relative;
+}
+
+.dentro{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
