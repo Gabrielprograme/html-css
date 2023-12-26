@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 300px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead> tr> th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(37, 37, 37);
+}
+
+
+th{
+    background-color: gray;
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+}
+.num{
+    font-weight: bold;
+    padding: 8px;
+}
+.idh{
+    font-weight: bold;
+}
+
+/* effect zebrado */
+
+tbody > tr:nth-child(even){
+    background-color: rgba(197, 197, 197, 0.404);
+}
