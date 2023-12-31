@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: rgb(235, 235, 235);
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td{
+    border: 2px solid rgb(247, 222, 0);
+    padding: 20px;
+}
+
+caption{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}

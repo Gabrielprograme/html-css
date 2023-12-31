@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse:collapse ;
+}
+td,th {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.colnome{
+    background-color: greenyellow;
+}
+.colsexo{
+    background-color: red;
+
+}
