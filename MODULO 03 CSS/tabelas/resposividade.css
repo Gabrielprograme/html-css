@@ -1,0 +1,36 @@
+body{
+    font: arial,helvetica,sans-serif;
+}
+
+table{
+    border-collapse:collapse ;
+  
+}
+th,td{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    text-transform: uppercase;
+} 
+tr:nth-child(even){
+    background: rgba(128, 128, 128, 0.377) ;
+}
+div#conteudo{
+    overflow-x: auto;
+    height: 50vh;
+
+}
+.cproduto{
+    background-color: yellow;
+}.cjaneiro{
+    background-color: red;
+}
+caption{
+    padding: 50px;
+    border: 2px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: gray;
+    color: white;
+}
