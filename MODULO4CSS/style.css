@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+div.fora{
+    background: black;
+    width: 100vw;
+    height: 800px;
+    position: relative;
+
+}
+
+div.dentro{
+    background-color: blanchedalmond;
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 10px;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
