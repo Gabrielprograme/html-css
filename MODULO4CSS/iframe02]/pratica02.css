@@ -1,0 +1,14 @@
+div.imagem{
+    background: url('imagens/pexels-unknown-user-1657328.jpg') center
+    center fixed;
+    background-size: cover;
+}
+div.normal{
+    background: url('imagens/pexels-furknsaglam-3131405.jpg') center center fixed;
+    background-size: cover;
+}
+ iframe{
+    border-radius: 10px;  
+    display: block;
+    margin: 40px auto;
+}
