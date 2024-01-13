@@ -1,10 +1,16 @@
-body{
-    background: url('imagens/pexels-unknown-user-1657328.jpg') center center fixed;
-    background-size: cover;
+
+div.fundo>iframe:hover{
+    background: url('imagens/pexels-unknown-user-1657332.jpg') no-repeat center center; 
+    background-size: cover; 
+    width: 800px;
 }
 
 iframe{
+    width:560px; 
+    height:315px; 
     display: block;
-    margin: 30px auto;
-    border-radius: 10px;
+    margin: auto;
+    border-radius:10px;
+    background: url('imagens/pexels-unknown-user-1657332.jpg') no-repeat center center; 
+    background-size: cover; 
 }
