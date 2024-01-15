@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* ajuste do iframe */iframe {
+ height: 540px;
+ width: 550px;
+ border-radius: 10px;
+ padding: 20px;
+ display: block;
+ margin: auto;
+}
